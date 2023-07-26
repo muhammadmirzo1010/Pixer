@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Sans+JP:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* START HEADER STYLE */
+
+.header {
+    padding: 8px 0;
+    background-color: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    ;
+    position: fixed;
+    width: 100%;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    gap: 0 32px;
+    align-items: center;
+
+
+}
+
+.header-item_link {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    transition: all 1s ease;
+}
+
+
+.header-item_link:hover {
+    color: #00BAFC;
+}
+
+.header-item_tel {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #00BAFC;
+}
+
+.header-item_link_tel {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* START MAIN STYLE */
+
+
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.main-left {
+    width: 470px;
+}
+
+.main-h1 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.main-text {
+    display: flex;
+    width: 465px;
+    height: 74px;
+    flex-direction: column;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.main-btn {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #00BAFC;
+    border: none;
+}
+
+.main-btn-link {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.main-iframe {
+    border-radius: 5px;
+}
+
+.main-services_box {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.main-services_box-h4 {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+    transition: all;
+}
+
+
+.main-services_box-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 719px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-services_card-list {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 48px 50px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.main-services_card-item {
+    padding: 24px;
+    align-items: center;
+    display: flex;
+    width: 320px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    transition: all 0, 6s ease;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.main-services_card-item:hover {
+    box-shadow: 0px 12px 21px 0px rgba(0, 0, 0, 0.10);
+    ;
+
+}
+
+.main-services_card-item:active {
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    ;
+
+}
+
+.main-services_card-item h4 {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.main-services_card-item p {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.hero-btn {
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    border-radius: 5px;
+    background: #00BAFC;
+    border: none;
+    margin-bottom: 26px;
+}
+
+.hero-btn a {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.hero-btn_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00BAFC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    margin-bottom: 72px;
+}
+
+.section_tittle {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.section-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 719px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.section-list {
+    display: flex;
+    flex-direction: column;
+    width: 832px;
+    margin: 0 auto;
+    gap: 48px;
+
+}
+
+.section-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.section-list_box {
+    width: 493px;
+    text-align: start;
+}
+
+.section-item h4 {
+
+    color: #000;
+    text-align: start;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+
+.section_btn {
+    display: flex;
+    width: 232px;
+    padding: 8px 16px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: #00BAFC;
+    border: none;
+}
+
+.section_btn a {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
